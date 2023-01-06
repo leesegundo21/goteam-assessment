@@ -1,13 +1,13 @@
 <template>
     <main>
-        <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-7xl h-screen py-6 sm:px-6 lg:px-8">
             <div>
                 <div class="p-4 pt-0">
                     <form @submit.prevent="submit">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div class="flex flex-col text-center items-center">
-                                <img class="h-52" :src="form.image" alt="">
-                                <label for="uploadUserImage" class="text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-1 mt-8 text-center mr-2 mb-2 dark:focus:ring-yellow-900 cursor-pointer">Upload</label>
+                                <img class="h-52 bg-gray-100" :src="form.image" alt="">
+                                <label for="uploadUserImage" class="text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-base px-5 py-1 mt-8 text-center mr-2 mb-2 dark:focus:ring-yellow-900 cursor-pointer">Upload Image</label>
                                 <input @change="changeImage" type="file" name="uploadUserImage" id="uploadUserImage" class="sr-only">
                             </div>
                             <div>

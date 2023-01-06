@@ -19,3 +19,9 @@
 
 5. Run npm run dev:
  - npm run dev
+
+Users for testing:
+Username: dummy01
+password: Default123
+
+All the users added in the seeder have the same password: Default123

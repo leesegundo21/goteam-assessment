@@ -28,7 +28,7 @@
         </div>
     </header>
     <main>
-        <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-7xl h-screen py-6 sm:px-6 lg:px-8">
             <div>
                 <div class="p-4 pt-0">
                     <div class="flex justify-center mt-5">
