@@ -6,7 +6,7 @@ use Inertia\Inertia;
 use Barryvdh\DomPDF\Facade\Pdf;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PokemonController;
-use App\Http\Controllers\userController;
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
